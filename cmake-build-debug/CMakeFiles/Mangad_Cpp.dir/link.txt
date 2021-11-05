@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Mangad_Cpp.dir/main.cpp.o -o Mangad_Cpp 

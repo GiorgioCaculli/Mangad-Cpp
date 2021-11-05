@@ -1,0 +1,3 @@
+/home/gzc/Projects/Mangad/Mangad-Cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gzc/Projects/Mangad/Mangad-Cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/gzc/Projects/Mangad/Mangad-Cpp/cmake-build-debug/CMakeFiles/Mangad.dir
