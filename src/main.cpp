@@ -10,14 +10,14 @@
 
 int main()
 {
-    auto *m1 = new Manga( "Test Manga 1", 1, "1234567890", "9780987654321" );
-    auto *m2 = new Manga( "Test Manga 2", 2, "0987654321", "9781234567890" );
-    auto *manga_series = new MangaSeries( "Test Manga Series" );
+    auto* m1 = new Manga( "Test Manga 1", 1, "1234567890", "9780987654321" );
+    auto* m2 = new Manga( "Test Manga 2", 2, "0987654321", "9781234567890" );
+    auto* manga_series = new MangaSeries( "Test Manga Series" );
 
     manga_series->add_volume( *m1 );
     manga_series->add_volume( *m2 );
 
-    auto *p1 = new Author( "FirstName", "LastName", "BD" );
+    auto* p1 = new Author( "FirstName", "LastName", "BD" );
 
     p1->add_media( *manga_series );
 

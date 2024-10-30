@@ -13,12 +13,12 @@ public:
     Media( const Media &media );
     Media &operator=( const Media &media );
     virtual ~Media() = default;
-    std::string get_title() const;
-    void set_title( std::string title );
     Media *clone() override = 0;
     bool operator ==( const Media &rhs ) const;
     bool operator !=( const Media &rhs ) const;
     std::string to_string() const override;
+    std::string get_title() const;
+    void set_title( std::string title );
 private:
     std::string _title;
 };

@@ -10,8 +10,10 @@ class ISeries
         : public IMedia
 {
 protected:
-    virtual bool add_volume( const Volume &volume ) = 0;
-    virtual bool remove_volume( Volume &volume ) = 0;
+    virtual bool add_volume( const Volume& volume ) = 0;
+
+    virtual bool remove_volume( Volume& volume ) = 0;
+
     virtual std::vector< Volume * > get_volumes() const = 0;
 };
 
